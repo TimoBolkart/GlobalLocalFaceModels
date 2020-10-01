@@ -20,7 +20,7 @@ To setup the provided code, use CMake and specify the required ITK, Clapack and 
 ##### Usage
 
 To run the program, the MM_Restricted_PCA.exe must be called with following 6 parameters, separated by a blank.
-* pcaModel.rmm - full path of the used PCA model. This parameter should point to the NE00 Scaled.rmm.
+* pcaModel.rmm - full path of the used PCA model. This parameter should point to the NE00_Scaled.rmm.
 * templateMesh.off - full path of the training data template mesh, needed for the mesh structure of the result. This parameter should point to the MeanFace_NE00_Scaled.off.
 * templateLmks.txt - full path of a text file including the landmark (x y z)-coordinates of the template mesh, the first 8 landmarks are used to compute a rigid alignment. This parameter should point to the ScaledAlignedLandmarks.txt.
 * targetData.off - full path of the fitting target point cloud or triangle mesh.
@@ -47,7 +47,7 @@ To setup the provided code, use CMake and specify the required Glut, Glew, OpenC
 ##### Usage
 
 To run the program, the LocalWaveletPCA.exe must be called with following 6 parameters, separated by a blank.
-* modelPath path of the folder where the model (std shape 0.bsgw, reduct tran shape 0.bsgw) and the learned mean shape (mean shape 0.bsgw) are located.
+* modelPath - path of the folder where the model (std shape 0.bsgw, reduct_tran_shape_0.bsgw) and the learned mean shape (mean_shape_0.bsgw) are located.
 * templateMesh.off - full path of the training data template mesh, needed for the mesh structure of the result. This parameter should point to the MeanFace_NE00_Scaled.off.
 * templateLmks.txt - full path of a text file including the landmark (x y z)-coordinates of the template mesh, the first 8 landmarks are used to compute a rigid alignment. This parameter should point to he ScaledAlignedLandmarks.txt.
 * targetData.off - full path of the fitting target point cloud or triangle mesh.
