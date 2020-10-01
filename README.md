@@ -6,11 +6,11 @@ The provided program fits a global principal component analysis (PCA) model (sub
 <img src="img/global_local_model.jpg" width="50%">
 </p>
 
-### Global PCA model
+### Global PCA model (subfolder global)
 
 ##### Setup
 
-The provided code (subfolder global) has dependencies on the following libraries:
+The provided code has dependencies on the following libraries:
 * Insight Segmentation and Registration Toolkit ITK (http://www.itk.org/). We recommend using ITK 4.50.
 * CLapack (http://www.netlib.org/clapack/). Clapack must be compiled using Blas (USE BLAS WRAP must be enabled when using CMake). We recommend using Clapac 3.2.1.
 * Approximate Nearest Neighbor Library ANN (http://www.cs.umd.edu/ mount/ANN/). We recommend using ANN 1.1.2.
@@ -31,11 +31,11 @@ To run the program, the MM_Restricted_PCA.exe must be called with following 6 pa
 
 The provided example RegisterTestPCA.cmd fits the PCA model to a point cloud named stereo_pointcloud.off with specified landmarks stereo pointcloud landmarks.txt and outputs the fitted mesh as OFF-file named stereo pointcloud fitting.off. To run the example, all paths within the RegisterTestPCA.cmd must be adjusted to point to the specified files. By exchanging the parameters of the target data, target landmarks and output fitting file name, this can be used to fit any other target OFF-file.
 
-### Local wavelet PCA model
+### Local wavelet PCA model (subfolder local)
 
 ##### Setup
 
-The provided code (subfolder local) has dependencies on the following libraries:
+The provided code has dependencies on the following libraries:
 * Glut (http://user.xmission.com/ nate/glut.html). We recommend using Glut 3.7.6.
 * Glew (http://glew.sourceforge.net/). We recommend using Glew 1.10.0.
 * OpenCV (http://opencv.org/). We recommend using OpenCV 2.4.8.
