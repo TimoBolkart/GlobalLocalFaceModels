@@ -13,7 +13,7 @@ The provided program fits a global principal component analysis (PCA) model (sub
 The provided code has dependencies on the following libraries:
 * Insight Segmentation and Registration Toolkit ITK (http://www.itk.org/). We recommend using ITK 4.50.
 * CLapack (http://www.netlib.org/clapack/). Clapack must be compiled using Blas (USE BLAS WRAP must be enabled when using CMake). We recommend using Clapac 3.2.1.
-* Approximate Nearest Neighbor Library ANN (http://www.cs.umd.edu/ mount/ANN/). We recommend using ANN 1.1.2.
+* Approximate Nearest Neighbor Library ANN (http://www.cs.umd.edu/~mount/ANN/). We recommend using ANN 1.1.2.
 
 To setup the provided code, use CMake and specify the required ITK, Clapack and ANN paths. Successfully compiling the project outputs a MM_Restricted_PCA.exe. The provided code has been developed and tested under Windows 7.
 
@@ -40,7 +40,7 @@ The provided code has dependencies on the following libraries:
 * Glew (http://glew.sourceforge.net/). We recommend using Glew 1.10.0.
 * OpenCV (http://opencv.org/). We recommend using OpenCV 2.4.8.
 * CLapack (http://www.netlib.org/clapack/). Clapack must be compiled using Blas (USE BLAS WRAP must be enabled when using CMake). We recommend using Clapac 3.2.1.
-* Approximate Nearest Neighbor Library ANN (http://www.cs.umd.edu/ mount/ANN/). We recommend using ANN 1.1.2.
+* Approximate Nearest Neighbor Library ANN (http://www.cs.umd.edu/~mount/ANN/). We recommend using ANN 1.1.2.
 
 To setup the provided code, use CMake and specify the required Glut, Glew, OpenCV, Clapack and ANN paths. Successfully compiling the project outputs a LocalWaveletPCA.exe. The compiled libraries glut32.dll, glew32.dll and ANN.dll, and the shader objects diffuse.fs, diffuse.vs, DisplayDispMap.fs, DisplayImage.fs, TemplateDisparityMap.fs, TemplateDisparityProject.vs, TemplateGeometryMap.fs and TemplateGeometryProject.vs must be copied into the generated project folder.
 
